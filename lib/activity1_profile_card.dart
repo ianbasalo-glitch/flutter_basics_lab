@@ -41,7 +41,7 @@ class ProfileCard extends StatelessWidget {
  ),
  const SizedBox(height: 16),
  const Text(
- 'RODEN F. LUSICA', // <-- change to your full name
+ 'IAN S. BASALO', // <-- change to your full name
  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
  ),
  const SizedBox(height: 4),
@@ -55,12 +55,12 @@ class ProfileCard extends StatelessWidget {
  children: [
  Icon(Icons.email, size: 20),
  SizedBox(width: 8),
- Text('roden.lusica@csucc.edu.ph'), // <-- change to your email
+ Text('ian.basalo@csucc.edu.ph'), // <-- change to your email
  ],
  ),
  Icon(Icons.email, size: 20),
  SizedBox(width: 8),
- Text('095412939466'), // <-- change to your email
+ Text('09451392404'), // <-- change to your email
  ],
  ),
  ),

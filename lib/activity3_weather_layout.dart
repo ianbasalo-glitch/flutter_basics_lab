@@ -45,7 +45,7 @@ class WeatherPage extends StatelessWidget {
  crossAxisAlignment: CrossAxisAlignment.start,
  children: [
  Text(
- 'CABADBARAN City', // <-- change to your hometown
+ 'MAGALLANES', // <-- change to your hometown
  style: TextStyle(
  fontSize: 24,
  fontWeight: FontWeight.bold,
