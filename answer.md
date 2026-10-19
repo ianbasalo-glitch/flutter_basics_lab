@@ -1,4 +1,14 @@
+GITHUB REPOSITORY LINK: 
+https://github.com/rodenlusica-lab/flutter_basics_lab.git
+
 activity2
+build() called: 0 glasses
+build() called: 1 glasses
+build() called: 2 glasses
+build() called: 3 glasses
+build() called: 4 glasses
+build() called: 5 glasses
+build() called: 6 glasses
 
 Experiment: inside _addGlass, move _glasses++ outside of setState and tap +. Write down what
 happens in your answers file, then put it back.
@@ -41,3 +51,4 @@ answer: ThemeData customizes the appearance of widgets throughout the app. For e
 10. When you flip the dark-mode switch in Activity 5, which widget holds the state, and how does the
 change reach MaterialApp.
 answer: The _ThemeDemoAppState class holds the _isDark variable. When the switch changes, _setDark() calls setState(), rebuilding the app and updating MaterialApp's themeMode to use the light or dark theme.
+
